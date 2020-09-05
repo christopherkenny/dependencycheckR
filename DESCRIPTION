@@ -1,0 +1,18 @@
+Package: dependencycheckR
+Title: Debug R Dependencies for Remote Machine
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Christopher",
+           family = "Kenny",
+           role = c("aut", "cre"),
+           email = "ckenny@g.harvard.edu")
+Description: This doesn't do much. This is single purposed for understanding why certain spatial packages fail under systems with restricted permissions.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    lwgeom,
+    sf,
+    spdep
